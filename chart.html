@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technotes</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            background-color: #222;
+            padding: 40px;
+            border-radius: 20px;
+            width: 80%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 30px;
+        }
+        .image-box {
+            padding: 20px;
+            text-align: center;
+        }
+        .grid-box {
+            background-color: #222;
+            padding: 40px;
+            border-radius: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+        .side-box {
+            text-align: center;
+            position: relative;
+        }
+        .side-box h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        img {
+            display: block;
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+        }
+        .center-image {
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        h6 {
+            font-size: 1em;
+            font-weight: normal;
+        }
+        .text-section {
+            margin-top: 30px;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .section { margin-bottom: 40px; }
+        .title { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+        .box { padding: 15px; border-radius: 8px; margin-bottom: 10px; }
+        .whatsapp-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+        }
+        .whatsapp-icon {
+            width: 30px;
+            height: 30px;
+        }
+        .event h2 {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <img class="center-image" src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743607569/logo_jei4gy.jpg" height="200" width="200" alt="Technotes Logo">
+    <h1>TECHNOTES</h1>
+    <h6>Your digital diary</h6>
+    <div class="grid-box">
+        <div class="grid-container">
+            <div class="side-box">
+                <h2>TODAY'S DIARY</h2>
+                <img src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743609161/dairy_dml5cf.jpg" alt="TODAY'S DIARY">
+            </div>
+            <div class="side-box">
+                <h2>NOTICE BOARD</h2>
+                <img src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743609287/notice_board_cla9xh.jpg" alt="NOTICE BOARD">
+            </div>
+            <div class="side-box">
+                <h2>TIME TABLE</h2>
+                <img src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743610625/time_table_xuuhba.jpg" alt="TIME TABLE">
+            </div>
+            <div class="side-box">
+                <h2>STUDENT ATTENDANCE</h2>
+                <img src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743610636/attendance_ff7bx8.jpg" alt="Attendance">
+            </div>
+        </div>
+    </div>
+    
+    <h1>our up coming workshops</h1>
+    <div class="schedule">
+        <h1>Detailed Workshop Schedule</h1>
+        <div class="event">
+            <h2>May 1st - 4th: Robotics Workshop</h2>
+            <p>Hands-on sessions with Arduino, sensors, and automation. Gaining practical experience in robotics engineering.</p>
+        </div>
+        <div class="event">
+            <h2>May 5th - 6th: Expert Sessions</h2>
+            <p>Insights from industry leaders. Explore emerging technologies and career paths, providing a clear understanding of the tech industry's future.</p>
+        </div>
+        <div class="event">
+            <h2>May 7th - 10th: Cybersecurity & AI</h2>
+            <p>Learn cybersecurity techniques, threat analysis, and AI tools for real-world problem-solving at Panther Labs.</p>
+        </div>
+        <div class="time">9:00AM to 12:00PM</div>
+    </div>
+    <a href="https://chat.whatsapp.com/JlS38qDOSZKGx0kDtP6Wa6" target="_blank" class="whatsapp-link">
+        <h6>Join WhatsApp Community</h6>
+        <img class="whatsapp-icon" src="https://res.cloudinary.com/diijhhqro/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1743615184/whats_fxith0.jpg" alt="WhatsApp Community">
+    </a>
+</body>
+</html>
+
+
+
+
+
+
+
+
